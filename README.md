@@ -8,8 +8,8 @@ It consists of the original `geosite.dat` from [Loyalsoldier/v2ray-rules-dat](ht
 
 ## Download
 
-https://github.com/YourPancakes/adblock-v2ray-rules-dat/releases/download/release/geosite.dat
-https://github.com/YourPancakes/adblock-v2ray-rules-dat/releases
+- [`https://github.com/YourPancakes/adblock-v2ray-rules-dat/releases/download/release/geosite.dat`](https://github.com/YourPancakes/adblock-v2ray-rules-dat/releases/download/release/geosite.dat)
+- [`https://github.com/YourPancakes/adblock-v2ray-rules-dat/releases/tag/release`](https://github.com/YourPancakes/adblock-v2ray-rules-dat/releases/tag/release)
 
 ## Added tags
 
