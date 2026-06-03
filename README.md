@@ -1,7 +1,5 @@
 # Geosite AdBlock
 
-[Русский](README.ru.md)
-
 ## What is this?
 
 This project automatically rebuilds a merged `geosite.dat` every 5 hours and adds tags on top of the original geosite.
