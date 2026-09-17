@@ -4,7 +4,7 @@
 
 This project automatically rebuilds a merged `geosite.dat` every 5 hours and adds tags on top of the original geosite.
 
-It consists of the original `geosite.dat` from [Loyalsoldier/v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat) and 23 additional tags.
+It consists of the original `geosite.dat` from [Loyalsoldier/v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat) and 24 additional tags.
 
 ## Download
 
@@ -14,26 +14,27 @@ It consists of the original `geosite.dat` from [Loyalsoldier/v2ray-rules-dat](ht
 
 | Tag | Description | Rules | RAM MiB | Source |
 |---|---|---:|---:|---|
-| `category-ads-plus` | Built from `category-ads-all` + `core-hagezi-pro`, `core-adguard-dns-filter`, `core-oisd-big`, `core-peter-lowe`, `core-someonewhocares-hosts`, `core-stevenblack-hosts` with deduplication. Result: 184.8% more rules than `category-ads-all`. | 538,317 | 71.1 | [Loyalsoldier geosite.dat](https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geosite.dat)<br>[HaGeZi Multi Pro](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.txt)<br>[AdGuard DNS Filter](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_15_DnsFilter/filter.txt)<br>[OISD Big](https://raw.githubusercontent.com/sjhgvr/oisd/main/domainswild2_big.txt)<br>[Peter Lowe](https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext)<br>[SomeoneWhoCares Hosts](https://someonewhocares.org/hosts/zero/hosts)<br>[StevenBlack Hosts](https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts) |
-| `category-adult-blocklistproject` | Domain rules from BlockListProject Adult. | 953,393 | 110.3 | [BlockListProject Adult](https://raw.githubusercontent.com/blocklistproject/Lists/master/porn.txt) |
-| `category-ai-noads-ru` | Domain rules from NoADS RU AI. | 120 | 1.5 | [NoADS RU AI](https://raw.githubusercontent.com/Zalexanninev15/NoADS_RU/main/filters/ai_slop_killer.txt) |
-| `category-facebook-blocklistproject` | Domain rules from BlockListProject Facebook. | 22,362 | 4.9 | [BlockListProject Facebook](https://blocklistproject.github.io/Lists/facebook.txt) |
-| `category-gambling-blocklistproject` | Domain rules from BlockListProject Gambling. | 342,623 | 41.2 | [BlockListProject Gambling](https://blocklistproject.github.io/Lists/gambling.txt) |
-| `category-tiktok-blocklistproject` | Domain rules from BlockListProject TikTok. | 3,725 | 2.0 | [BlockListProject TikTok](https://blocklistproject.github.io/Lists/tiktok.txt) |
-| `category-twitter-blocklistproject` | Domain rules from BlockListProject Twitter. | 1,193 | 1.4 | [BlockListProject Twitter](https://blocklistproject.github.io/Lists/twitter.txt) |
-| `category-youtube-blocklistproject` | Domain rules from BlockListProject YouTube. | 24,280 | 7.8 | [BlockListProject YouTube](https://blocklistproject.github.io/Lists/youtube.txt) |
-| `core-adguard-dns-filter` | Domain rules from AdGuard DNS Filter for ads, trackers, and telemetry. | 179,754 | 26.2 | [AdGuard DNS Filter](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_15_DnsFilter/filter.txt) |
-| `core-hagezi-pro` | HaGeZi Multi Pro: ads, trackers, analytics, telemetry, and related unwanted domains. | 226,255 | 30.6 | [HaGeZi Multi Pro](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.txt) |
-| `core-hagezi-pro-plus` | HaGeZi Multi Pro++: a more aggressive standalone HaGeZi Multi tier. | 250,496 | 32.8 | [HaGeZi Multi Pro++](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.plus.txt) |
-| `core-hagezi-ultimate` | HaGeZi Ultimate: the strictest standalone HaGeZi Multi tier. | 275,070 | 38.0 | [HaGeZi Ultimate](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/ultimate.txt) |
-| `core-oisd-big` | Domain rules from OISD Big for ads, trackers, and analytics. | 246,472 | 30.0 | [OISD Big](https://raw.githubusercontent.com/sjhgvr/oisd/main/domainswild2_big.txt) |
-| `core-peter-lowe` | Domain rules from Peter Lowe. | 3,560 | 1.5 | [Peter Lowe](https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext) |
-| `core-someonewhocares-hosts` | Domain rules from SomeoneWhoCares Hosts. | 13,075 | 2.7 | [SomeoneWhoCares Hosts](https://someonewhocares.org/hosts/zero/hosts) |
-| `core-stevenblack-hosts` | Domain rules from StevenBlack Hosts. | 80,170 | 12.8 | [StevenBlack Hosts](https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts) |
-| `media-non-legal` | fmovies.to, sflix.to, lookmovie.sx, soap2day.rs, hianime.to, animepahe.com, aniwave.to, nyaa.si, tokyotosho.info, 1337x.to, thepiratebay.org, eztv.re, streamtape.com, doodstream.com, mixdrop.co, voe.sx, filemoon.sx, uqload.to, etc. | 1,471 | 0.4 | - |
-| `media-non-legal-ru` | rezka.ag, hdrezka.ag, filmix.ac, kinozal.tv, kinogo.ec, lord.kim, seasonvar.ru, alloha.tv, kodik.cc, hdvb.cc, bazon.cc, anilibria.tv, animego.org, animevost.org, jut.su, mangalib.me, ranobelib.me, etc. | 340 | 0.5 | - |
-| `security-hagezi-tif` | HaGeZi Threat Intelligence Feeds: malware, phishing, scams, cryptojacking, and C2 domains. | 2,475,946 | 271.9 | [HaGeZi Threat Intelligence Feeds](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.txt) |
-| `security-phishing-army` | Domain rules from Phishing Army Extended. | 154,393 | 20.4 | [Phishing Army Extended](https://phishing.army/download/phishing_army_blocklist_extended.txt) |
-| `security-phishing-filter-agh` | Domain rules from Phishing Filter AGH. | 39,509 | 8.3 | [Phishing Filter AGH](https://malware-filter.gitlab.io/malware-filter/phishing-filter-agh.txt) |
-| `security-urlhaus-online` | Domain rules from URLHaus Online. | 419 | 0.7 | [URLHaus Online](https://urlhaus.abuse.ch/downloads/hostfile/) |
-| `social` | Domain rules for social networks and related domains. They include Facebook, Instagram, Messenger, WhatsApp, TikTok, X/Twitter, Reddit, Snapchat, Pinterest, LinkedIn, Twitch, WeChat, Bluesky, Badoo, Bumble, Hinge, Match, OkCupid, Plenty of Fish, Clubhouse, Myspace, Likee, Foursquare, Free Basics, and internet.org. | 27,280 | 8.0 | - |
+| `category-ads-plus` | Built from `category-ads-all` + `core-hagezi-pro`, `core-adguard-dns-filter`, `core-oisd-big`, `core-peter-lowe`, `core-someonewhocares-hosts`, `core-stevenblack-hosts` with deduplication. Result: 184.8% more rules than `category-ads-all`. | 538,318 | 70.6 | [Loyalsoldier geosite.dat](https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geosite.dat)<br>[HaGeZi Multi Pro](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.txt)<br>[AdGuard DNS Filter](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_15_DnsFilter/filter.txt)<br>[OISD Big](https://raw.githubusercontent.com/sjhgvr/oisd/main/domainswild2_big.txt)<br>[Peter Lowe](https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext)<br>[SomeoneWhoCares Hosts](https://someonewhocares.org/hosts/zero/hosts)<br>[StevenBlack Hosts](https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts) |
+| `category-adult-blocklistproject` | Domain rules from BlockListProject Adult. | 953,393 | 112.3 | [BlockListProject Adult](https://raw.githubusercontent.com/blocklistproject/Lists/master/porn.txt) |
+| `category-ai-noads-ru` | Domain rules from NoADS RU AI. | 120 | 0.8 | [NoADS RU AI](https://raw.githubusercontent.com/Zalexanninev15/NoADS_RU/main/filters/ai_slop_killer.txt) |
+| `category-facebook-blocklistproject` | Domain rules from BlockListProject Facebook. | 22,362 | 4.5 | [BlockListProject Facebook](https://blocklistproject.github.io/Lists/facebook.txt) |
+| `category-gambling-blocklistproject` | Domain rules from BlockListProject Gambling. | 342,623 | 40.2 | [BlockListProject Gambling](https://blocklistproject.github.io/Lists/gambling.txt) |
+| `category-malware-blocklistproject` | Domain rules from BlockListProject Malware to block malware, trojans, and malicious domains. | 2,656,393 | 322.6 | [BlockListProject Malware](https://blocklistproject.github.io/Lists/malware.txt) |
+| `category-tiktok-blocklistproject` | Domain rules from BlockListProject TikTok. | 3,725 | 1.3 | [BlockListProject TikTok](https://blocklistproject.github.io/Lists/tiktok.txt) |
+| `category-twitter-blocklistproject` | Domain rules from BlockListProject Twitter. | 1,193 | 0.4 | [BlockListProject Twitter](https://blocklistproject.github.io/Lists/twitter.txt) |
+| `category-youtube-blocklistproject` | Domain rules from BlockListProject YouTube. | 24,280 | 6.7 | [BlockListProject YouTube](https://blocklistproject.github.io/Lists/youtube.txt) |
+| `core-adguard-dns-filter` | Domain rules from AdGuard DNS Filter for ads, trackers, and telemetry. | 179,754 | 28.5 | [AdGuard DNS Filter](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_15_DnsFilter/filter.txt) |
+| `core-hagezi-pro` | HaGeZi Multi Pro: ads, trackers, analytics, telemetry, and related unwanted domains. | 226,255 | 26.8 | [HaGeZi Multi Pro](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.txt) |
+| `core-hagezi-pro-plus` | HaGeZi Multi Pro++: a more aggressive standalone HaGeZi Multi tier. | 250,496 | 32.1 | [HaGeZi Multi Pro++](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.plus.txt) |
+| `core-hagezi-ultimate` | HaGeZi Ultimate: the strictest standalone HaGeZi Multi tier. | 275,070 | 34.7 | [HaGeZi Ultimate](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/ultimate.txt) |
+| `core-oisd-big` | Domain rules from OISD Big for ads, trackers, and analytics. | 246,473 | 30.7 | [OISD Big](https://raw.githubusercontent.com/sjhgvr/oisd/main/domainswild2_big.txt) |
+| `core-peter-lowe` | Domain rules from Peter Lowe. | 3,560 | 1.1 | [Peter Lowe](https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext) |
+| `core-someonewhocares-hosts` | Domain rules from SomeoneWhoCares Hosts. | 13,075 | 2.2 | [SomeoneWhoCares Hosts](https://someonewhocares.org/hosts/zero/hosts) |
+| `core-stevenblack-hosts` | Domain rules from StevenBlack Hosts. | 80,170 | 11.2 | [StevenBlack Hosts](https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts) |
+| `media-non-legal` | fmovies.to, sflix.to, lookmovie.sx, soap2day.rs, hianime.to, animepahe.com, aniwave.to, nyaa.si, tokyotosho.info, 1337x.to, thepiratebay.org, eztv.re, streamtape.com, doodstream.com, mixdrop.co, voe.sx, filemoon.sx, uqload.to, etc. | 1,466 | 0.9 | - |
+| `media-non-legal-ru` | rezka.ag, hdrezka.ag, filmix.ac, kinozal.tv, kinogo.ec, lord.kim, seasonvar.ru, alloha.tv, kodik.cc, hdvb.cc, bazon.cc, anilibria.tv, animego.org, animevost.org, jut.su, mangalib.me, ranobelib.me, etc. | 340 | 0.6 | - |
+| `security-hagezi-tif` | HaGeZi Threat Intelligence Feeds: malware, phishing, scams, cryptojacking, and C2 domains. | 2,475,946 | 277.8 | [HaGeZi Threat Intelligence Feeds](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.txt) |
+| `security-phishing-army` | Domain rules from Phishing Army Extended. | 154,393 | 22.5 | [Phishing Army Extended](https://phishing.army/download/phishing_army_blocklist_extended.txt) |
+| `security-phishing-filter-agh` | Domain rules from Phishing Filter AGH. | 39,509 | 6.8 | [Phishing Filter AGH](https://malware-filter.gitlab.io/malware-filter/phishing-filter-agh.txt) |
+| `security-urlhaus-online` | Domain rules from URLHaus Online. | 423 | 0.6 | [URLHaus Online](https://urlhaus.abuse.ch/downloads/hostfile/) |
+| `social` | Domain rules for social networks and related domains. They include Facebook, Instagram, Messenger, WhatsApp, TikTok, X/Twitter, Reddit, Snapchat, Pinterest, LinkedIn, Twitch, WeChat, Bluesky, Badoo, Bumble, Hinge, Match, OkCupid, Plenty of Fish, Clubhouse, Myspace, Likee, Foursquare, Free Basics, and internet.org. | 27,280 | 4.6 | - |
